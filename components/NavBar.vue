@@ -1,21 +1,17 @@
 <script setup lang="ts">
 
 import Logo from "~/components/Logo.vue";
-import EnvelopeIcon from "~/components/icons/EnvelopeIcon.vue";
 </script>
 
 <template>
-    <div class="flex h-20 border-b">
-        <div class="flex">
-            <div class="flex flex-row font-roboto-condensed uppercase">
-                <div class="flex items-center px-5 text-black border-r">Dragonfly V</div>
-                <div class="flex items-center px-5 text-gray-400">Company History</div>
-                <div class="flex items-center px-5 text-gray-400">Our Team</div>
-                <div class="flex items-center px-5 text-gray-400"><EnvelopeIcon class="mr-1"/>Contact Us</div>
-            </div>
+    <div class="flex h-20">
+        <div class="flex flex-row w-full font-inter font-thin text-sm text-gray-600">
+            <div class="flex items-center w-28 sm:w-36"><Logo class="h-24"/></div>
+            <div class="flex-auto"></div>
+            <div class="flex items-center px-1.5 sm:px-2">Indiegogo</div>
+            <div class="flex items-center px-1.5 sm:px-2">GoGetta</div>
+            <div class="flex items-center pl-1.5 sm:pl-2 pr-5">Talk to Us</div>
         </div>
-        <div class="flex-auto"></div>
-        <div class="flex items-center"><Logo class="h-28"/></div>
     </div>
 </template>
 
